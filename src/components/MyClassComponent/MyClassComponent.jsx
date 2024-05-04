@@ -10,10 +10,11 @@ class MyClassComponent extends React.Component {
   }
 
   render() {
+    const { title, description } = this.props;
     return (
       <>
-        <h1>Title: {this.props.title}</h1>
-        <p>Description: {this.props.description}</p>
+        <h1>Hello from {title}</h1>
+        <p>{description}</p>
       </>
     );
   }
