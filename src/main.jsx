@@ -5,7 +5,7 @@ import MyFunctionalComponent from "./components/MyFunctionalComponent";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <MyClassComponent />
+    <MyClassComponent title="My Class Component" description="This is a class component"/>
     <MyFunctionalComponent />
   </>
 );
