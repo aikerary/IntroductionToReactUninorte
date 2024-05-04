@@ -14,6 +14,8 @@ function MyFunctionalComponent({price, stock}) {
         <p>My amount is {amount}</p>
         <button onClick={() => setAmount(amount + 1)}>Add</button>
         <button onClick={() => setAmount(amount - 1)}>Subtract</button>
+        <button onClick={() => setAmount(amount + 2)}>Add 2</button>
+        <button onClick={() => setAmount(amount - 2)}>Subtract 2</button>
     </>
   );
 }
